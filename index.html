@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Blog Manager</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="container"></div>
+  <h1> Simple Blog</h1>
+  <section>
+    <form id="createForm">
+      <input type="text" id="title" placeholder="post title" required />
+
+
+      <textarea id="post-content"   placeholder="content" required></textarea>
+
+      <input type="text" id="author"  placeholder="author" required />
+
+      <button type="submit">Create</button>
+    </form>
+  </section>
+  <section>
+    <ol id="post-list"></ol>
+  </section>
+</div>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

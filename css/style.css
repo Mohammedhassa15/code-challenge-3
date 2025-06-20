@@ -1,0 +1,134 @@
+body {
+  background: beige;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    place-content: center;
+    margin:40px auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin:10px 0;
+}
+#createForm {
+    width: 500px;
+    text-align: center;
+}
+.myButton {
+    background: green;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-left: 60px;
+    margin-top: 60px;
+
+}
+.myButton:hover {
+  background: darkgreen;
+}
+
+.myDeleteButton {
+    background: red;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+    
+}
+.myDeleteButton:hover {
+  background: darkred;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: start;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.action {
+ margin-top: 20px;
+}
+ol {
+    margin-top: 20px;
+}
+.post {
+    border: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: beige;
+    display: flex;
+    justify-content: space-between;
+    background: teal;
+
+}
+
+.post-content {
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+  font-size: 20px;       /* fixed size */
+  width: 20px;           /* optional: gives uniform width */
+  height: 20px;          /* optional */
+  line-height: 20px;     /* vertically center if needed */
+  text-align: center;    /* centers icon inside the button */
+  display: inline-block; /* makes width/height work */
+}
+#post-list {
+  justify-content: center;
+  text-align: center;
+}
+
+
+button[type="submit"] {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+section {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+

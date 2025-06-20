@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "hi",
+      "content": "my name is Mohammed",
+      "author": "Regan",
+      "id": 1
+    },
+    {
+      "title": "Friday",
+      "content": "Friday is the best of all days",
+      "author": "Mohammed",
+      "id": "2"
+    },
+    {
+      "title": "JAVASCRIPT",
+      "content": "You don't know JavaScript",
+      "author": "Trump",
+      "id": "W2cKvRr"
+    },
+    {
+      "title": "Mango",
+      "content": "It is one of the mostly admired fruits in the world",
+      "author": "Obama",
+      "id": "jsjgV3L"
+    }
+  ]
+}
