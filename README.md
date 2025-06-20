@@ -30,7 +30,7 @@ A simple CRUD(Create,Read,Update,Delete)blog post manager built with HTML, CSS, 
 2. Install **JSON Server**
 If you don’t have json-server installed:
 ***npm install -g json-server***
-3. Run the **JSON Server**
+3. Run the JSON Server
 ***json-server --watch db.json***
 It will run on:
   ***http://localhost:3000/posts***
@@ -48,6 +48,9 @@ Open index.html in your browser (you can double-click it or use Live Server in V
 - Each post has Edit and Delete buttons.
 
 - You can update post content or remove it.
+
+**You can check the app at this link**
+ https://mohammedhassa15.github.io/code-challenge-3/
 
 
 
